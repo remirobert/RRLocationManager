@@ -13,7 +13,7 @@
 		BB24FA9C1B00A0B300F0575A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB24FA9B1B00A0B300F0575A /* Images.xcassets */; };
 		BB24FA9F1B00A0B300F0575A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB24FA9D1B00A0B300F0575A /* LaunchScreen.xib */; };
 		BB24FAAB1B00A0B300F0575A /* RRGeoLocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB24FAAA1B00A0B300F0575A /* RRGeoLocTests.swift */; };
-		BB24FAB51B00A0C800F0575A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB24FAB41B00A0C800F0575A /* LocationManager.swift */; };
+		BB24FAB51B00A0C800F0575A /* RRLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB24FAB41B00A0C800F0575A /* RRLocationManager.swift */; };
 		BB24FAB71B00A14100F0575A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB24FAB61B00A14100F0575A /* CoreLocation.framework */; };
 		BB24FAB91B00AA2400F0575A /* RRLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB24FAB81B00AA2400F0575A /* RRLocationViewController.swift */; };
 		BB24FABB1B00AB3E00F0575A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB24FABA1B00AB3E00F0575A /* MapKit.framework */; };
@@ -40,7 +40,7 @@
 		BB24FAA41B00A0B300F0575A /* RRGeoLocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRGeoLocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB24FAA91B00A0B300F0575A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB24FAAA1B00A0B300F0575A /* RRGeoLocTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RRGeoLocTests.swift; sourceTree = "<group>"; };
-		BB24FAB41B00A0C800F0575A /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		BB24FAB41B00A0C800F0575A /* RRLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RRLocationManager.swift; sourceTree = "<group>"; };
 		BB24FAB61B00A14100F0575A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		BB24FAB81B00AA2400F0575A /* RRLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RRLocationViewController.swift; sourceTree = "<group>"; };
 		BB24FABA1B00AB3E00F0575A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -91,7 +91,7 @@
 			children = (
 				BB24FA941B00A0B300F0575A /* AppDelegate.swift */,
 				BB24FA961B00A0B300F0575A /* ViewController.swift */,
-				BB24FAB41B00A0C800F0575A /* LocationManager.swift */,
+				BB24FAB41B00A0C800F0575A /* RRLocationManager.swift */,
 				BB24FAB81B00AA2400F0575A /* RRLocationViewController.swift */,
 				BB24FA981B00A0B300F0575A /* Main.storyboard */,
 				BB24FA9B1B00A0B300F0575A /* Images.xcassets */,
@@ -229,7 +229,7 @@
 				BB24FA971B00A0B300F0575A /* ViewController.swift in Sources */,
 				BB24FAB91B00AA2400F0575A /* RRLocationViewController.swift in Sources */,
 				BB24FA951B00A0B300F0575A /* AppDelegate.swift in Sources */,
-				BB24FAB51B00A0C800F0575A /* LocationManager.swift in Sources */,
+				BB24FAB51B00A0C800F0575A /* RRLocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +427,7 @@
 				BB24FAB01B00A0B300F0575A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB24FAB11B00A0B300F0575A /* Build configuration list for PBXNativeTarget "RRGeoLocTests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +436,7 @@
 				BB24FAB31B00A0B300F0575A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
